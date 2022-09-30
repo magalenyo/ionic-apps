@@ -17,7 +17,7 @@ Ionic:
 
 ## Movie App
 
-This App retrieves a list of trending movies from TheMovieDB and when an item is clicked, it loads a movie detail page.
+This App retrieves a list of trending movies from TheMovieDB  with an infinite scroll, and when an item is clicked, it loads a movie detail page.
 
 ![image](https://user-images.githubusercontent.com/27434068/193203475-e7d3a877-cf7e-4272-8ead-401a307c90b0.png)
 
