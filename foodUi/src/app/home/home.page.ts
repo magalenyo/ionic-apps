@@ -32,6 +32,8 @@ export class HomePage {
     freeMode: true
   }
 
+  showLocationDetail = false;
+
   constructor(private http: HttpClient) {
     this.http.get('https://devdactic.fra1.digitaloceanspaces.com/foodui/home.json').subscribe((res: any) => {
       console.log(res);
@@ -46,6 +48,11 @@ export class HomePage {
     setTimeout(() => {
       ev.target.complete();
     }, 2000);
+  }
+
+  onScroll(ev) {
+    const offset = ev.detail.scrollTop;
+    this.showLocationDetail = offset > 50;
   }
 
 }

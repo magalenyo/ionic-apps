@@ -46,3 +46,13 @@ ion-refresher {
 ion-searchbar {
   --icon-color: var(--ion-color-medium);
 }
+
+.location-visible {
+  opacity: 1;
+  transition: .5s;
+}
+
+.location-hidden {
+  opacity: 0;
+  transition: .5s;
+}
