@@ -25,7 +25,11 @@ Ionic:
 
 This App retrieves a list of trending movies from TheMovieDB  with an infinite scroll, and when an item is clicked, it loads a movie detail page.
 
+**Home page**
+
 ![image](https://user-images.githubusercontent.com/27434068/193203475-e7d3a877-cf7e-4272-8ead-401a307c90b0.png)
+
+**Details page**
 
 ![image](https://user-images.githubusercontent.com/27434068/193203723-525eafcd-2314-4bcd-8cac-53ed5ecb8b2e.png)
 
@@ -36,14 +40,14 @@ This App retrieves a list of trending movies from TheMovieDB  with an infinite s
 
 This App tries to replicate the Deliveroo home page and the details page.
 
-Home page:
+**Home page**
 
 ![image](https://user-images.githubusercontent.com/27434068/193564481-702fa2e1-520f-4c5e-80d3-d0995e9b2ab3.png)
 
 ![image](https://user-images.githubusercontent.com/27434068/193564547-bae6a837-76b9-45af-9040-10b8bbd5b980.png)
 
 
-Details page:
+**Details page**
 
 ![image](https://user-images.githubusercontent.com/27434068/193564787-3434bcf7-37ad-4a2b-8298-f68f3400207c.png)
 
