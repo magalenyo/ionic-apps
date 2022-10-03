@@ -13,11 +13,11 @@ export class DetailsPage implements OnInit {
   data = null;
 
   opts = {
-    freeMode: true,
-    slidesPerView: 2.6,
-    slidesOffsetBefore: 30,
-    slidesOffsetAfter: 100
-  }
+		freeMode: true,
+		slidesPerView: 2.6,
+		slidesOffsetBefore: 30,
+		slidesOffsetAfter: 100
+	};
 
   categorySlidesVisible = false;
 
@@ -34,7 +34,6 @@ export class DetailsPage implements OnInit {
   ngOnInit() {
     this.http.get('https://devdactic.fra1.digitaloceanspaces.com/foodui/1.json').subscribe( (res) => {
       this.data = res;
-      console.log(res);
     })
 
     const headerHeight = isPlatform('ios') ? 44 : 56;
@@ -44,7 +43,6 @@ export class DetailsPage implements OnInit {
   ngAfterViewInit() {
     this.lists.changes.subscribe(_ => {
       this.listElements = this.lists.toArray();
-      console.log(this.listElements)
     })
   }
 
@@ -61,7 +59,7 @@ export class DetailsPage implements OnInit {
       const item = this.listElements[i].nativeElement;
       if (this.isElementInViewport(item)) {
         this.activeCategory = i;
-        this.slides.slideTo(i, 1000);
+        this.slides.slideTo(i);
         break;
       }
     }
